@@ -2,14 +2,15 @@
   "name": "astro-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
